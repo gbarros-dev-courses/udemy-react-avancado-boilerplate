@@ -5,7 +5,7 @@ module.exports = {
     ...options,
     plugins: [
       ...options.plugins,
-      require.resolve('@babel/plugin-transform-react-')
+      require.resolve('@babel/plugin-transform-react-jsx')
     ]
   }),
   webpackFinal: (config) => {
